@@ -8,7 +8,7 @@ import { Navigation } from "@/components/navigation"
 import { Suspense } from "react"
 
 export const metadata: Metadata = {
-  title: "v0 App",
+  title: "Construction Monitor App",
   description: "Created with v0",
   generator: "v0.app",
 }
@@ -20,6 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable} antialiased`}>
+      <head>
+        <title>Construction Monitor App</title>  {/* Your custom title here */}
+      </head>
       <body>
         <Suspense fallback={<div>Loading...</div>}>
           <Navigation />
