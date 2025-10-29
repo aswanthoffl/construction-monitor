@@ -264,3 +264,6 @@ You are free to use, modify, and distribute this project with proper attribution
 **Construction Monitor** is developed and maintained by the team to simplify and digitize the construction monitoring process.
 
 ---
+
+Author: Aswanth 
+https://www.linkedin.com/in/aswanth-a-aa7234256/
